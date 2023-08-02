@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Birbank Invest"
-include ':app'
+include(":app")
