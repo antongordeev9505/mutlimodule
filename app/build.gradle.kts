@@ -37,6 +37,7 @@ android {
 }
 
 dependencies {
+    implementation(project(Modules.componentManager))
     // Core
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKtx)
