@@ -13,7 +13,6 @@ subprojects {
             defaultConfig {
                 minSdk = ConfigurationData.minSdk
                 targetSdk = ConfigurationData.targetSdk
-                targetSdk = ConfigurationData.targetSdk
                 versionCode = ConfigurationData.versionCode
                 versionName = ConfigurationData.versionName
                 testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"

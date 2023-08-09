@@ -4,6 +4,12 @@ plugins {
     id("kotlin-kapt")
 }
 
+android {
+    defaultConfig {
+        applicationId = ConfigurationData.applicationId
+    }
+}
+
 dependencies {
     implementation(project(Modules.componentManager))
     // Core
