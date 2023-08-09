@@ -12,6 +12,8 @@ android {
 
 dependencies {
     implementation(project(Modules.componentManager))
+    implementation(project(":my_module_api"))
+    implementation(project(":my_module"))
     // Core
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKtx)

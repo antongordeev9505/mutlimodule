@@ -1,12 +1,14 @@
 package com.example.birbankinvest.di
 
 import com.example.birbankinvest.Application
+import com.example.birbankinvest.MainActivity
 import dagger.Component
 
-@Component
-interface ApplicationComponent {
+@Component(modules = [MediatorModule::class])
+interface ApplicationComponent : AppDeps {
 
     fun inject(application: Application)
+    fun inject(mainActivity: MainActivity)
 
     @Component.Factory
     interface Factory {

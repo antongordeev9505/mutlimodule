@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Birbank Invest"
 include(":app")
 include(":component_manager")
+include(":my_module")
+include(":my_module_api")
