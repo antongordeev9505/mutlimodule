@@ -12,8 +12,11 @@ android {
 
 dependencies {
     implementation(project(Modules.componentManager))
+    implementation(project(":core_module"))
     implementation(project(":my_module_api"))
     implementation(project(":my_module"))
+    implementation(project(":authorization"))
+    implementation(project(":authorization_api"))
     // Core
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKtx)

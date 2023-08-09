@@ -7,6 +7,7 @@
     tools:context="com.example.my_module.MainActivity2">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mynew"
@@ -16,5 +17,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
     </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonPress to Authorization"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

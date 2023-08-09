@@ -1,8 +1,10 @@
 package com.example.my_module
 
-import com.example.my_module_api.MyModuleMediator
+import com.example.authorization_api.AuthorizationMediator
+import com.example.core_module.IDog
 
 interface MyModuleDeps {
 
-    val mediator: MyModuleMediator
+    val dog: IDog
+    val mediator: AuthorizationMediator
 }

@@ -4,5 +4,5 @@ import android.app.Activity
 
 interface MyModuleMediator {
 
-    fun navigateToMyModule(activity: Activity)
+    fun navigateToMyFeature(activity: Activity)
 }

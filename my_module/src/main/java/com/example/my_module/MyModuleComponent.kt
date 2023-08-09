@@ -1,11 +1,9 @@
 package com.example.my_module
 
-import android.content.Context
 import com.example.component_manager.XInjectionManager
 import dagger.Component
 
-@Component(dependencies = [MyModuleDeps::class],
-)
+@Component(dependencies = [MyModuleDeps::class])
 interface MyModuleComponent {
 
     fun inject(activity: MainActivity2)
