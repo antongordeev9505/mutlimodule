@@ -5,7 +5,6 @@ plugins {
 }
 
 android {
-    namespace = ConfigurationData.namespace
     compileSdk = ConfigurationData.compileSdk
 
     defaultConfig {

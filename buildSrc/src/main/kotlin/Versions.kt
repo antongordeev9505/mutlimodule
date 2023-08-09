@@ -1,7 +1,7 @@
 object Versions {
 
     // Gradle Plugin
-    const val classpathGradleVersion = "8.0.2"
+    const val classpathGradleVersion = "7.4.2"
 
     // Core
     const val kotlinVersion = "1.8.20"
