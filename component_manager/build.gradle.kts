@@ -4,10 +4,6 @@ plugins {
 
 }
 
-android {
-    compileSdk = ConfigurationData.compileSdk
-}
-
 dependencies {
     implementation(Libraries.appCompat)
 }
